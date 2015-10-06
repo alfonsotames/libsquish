@@ -17,5 +17,3 @@ CPPFLAGS += -DSQUISH_USE_SSE=2
 CXXFLAGS += -msse
 endif
 
-# where should we install to
-INSTALL_DIR ?= @PREFIX@
